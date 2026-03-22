@@ -1,0 +1,104 @@
+.parent{
+    width:80vw;
+    height: auto;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin-left: 10vw;
+    display: flex;
+    padding-bottom: 5rem;
+    
+    /* background-image:conic-gradient(rgba(234, 17, 17,0.2),white); */
+}
+.container{
+    height: auto;
+    width: 30vw;
+    margin-right: 20vw;
+    /* border: 1px solid black; */
+    justify-content: left;
+    /* align-items: center; */
+    margin-top: 19vh;
+    display: flex;
+    flex-direction: column;
+    background-image: "https://x.com/Swiggy/photo";
+}
+.cont1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Proxima Nova", Arial, sans-serif;
+}
+.child {
+    /* text-align: center; */
+    /* align-items: center; */
+    /* border: 1px solid black; */
+    font-family: "Proxima Nova", Arial, sans-serif;
+    text-align: left; 
+}
+.cont2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 9.3rem;
+    height: 40px;
+    /* width: 100%; */
+}
+.cont3{
+    font-size: 25px;
+    font-weight: 700;
+    height: 50px;
+    padding-right: 17rem;
+    padding-top: 50px;
+}
+.cont4{
+    height: 20px;
+
+}
+.cont5{
+    font-size: 25px;
+    font-weight: 700;
+    height: 50px;
+    padding-right: 13rem;
+    padding-top: 40px;
+}
+.cont6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3rem;
+    max-width: 90%;
+    height: 100px;
+    text-align: left;
+}
+.form{
+    height: 20rem;
+    width: 10rem;
+    border: 1px solid black;
+}
+.cont7 button{
+    border-radius: 5px;
+    color: rgb(247, 247, 247);
+    background-color: orangered;
+    height: 2.4rem;
+    width: 8rem;
+}
+.parent{position: relative;}
+.parent:after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    background-color: #FF5200;
+    border-radius: 50%;
+    rotate: 348deg;
+    z-index: -1;
+    filter: blur(100px);
+    opacity: 0.2;
+    top: 22%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.footer{
+    height: 20rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding-bottom: 30px;
+}

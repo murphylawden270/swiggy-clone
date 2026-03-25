@@ -10,6 +10,7 @@ a{transition: 0.5s;text-decoration: none;color: black;}
 h1,h2,h3,h4,h5,h6{margin: 0;line-height: 100%;}
 img{max-width: 100%;height: auto;}
 button{transition: 0.5s;width: 100%;margin: 10px 0;}
+p{margin: 0;}
 
 /*home nav banner wrapper*/
 
@@ -34,8 +35,20 @@ button{transition: 0.5s;width: 100%;margin: 10px 0;}
 /*home order section*/
 
 .order-w{margin: 50px 0;}
-.order-w h2{font-weight: 700;font-size: 24px;overflow: hidden;}
+.order-w h2{font-weight: 600;font-size: 24px;line-height: 26px;letter-spacing: -0.6px;}
 .order-row{display: flex;flex-wrap: nowrap;}
+
+
+/*home dine out section*/
+.dineout-w{margin: 32px 0;}
+.dineout-card-w h2{font-weight: 600;font-size: 24px;line-height: 26px;letter-spacing: -0.6px;padding-bottom: 32px;}
+.dineout-card .card-img{background: url(../img/dineout.JPG)no-repeat;background-size: cover;height: 170px;display: flex;justify-content: space-between;align-items: flex-end;color: white;padding: 6px 10px;font-weight: 800;font-size: 20px;line-height: 24px;letter-spacing: -0.5px;}
+.cuisine-details,.city-dist{display: flex;justify-content: space-between;align-items: center;}
+.offer-tag-1{border-radius: 8px;background: rgb(27, 166, 114);height: 36px;margin-top: 12px;display: flex;align-items: center;justify-content: left;color: #fff;font-weight: 600;font-size: 16px;line-height: 18px;letter-spacing: -0.35px;padding: 0 18px;}
+.offer-tag-2{display: flex;align-items: center;height: 36px;border-radius: 8px;background: #c8f9e5;margin-top: 12px;padding-left: 8px;font-weight: 200;font-size: 16px;line-height: 21px;letter-spacing: -0.4px;color: rgb(27, 166, 114);padding: 0 18px;}
+.dineout-card{border-radius: 16px;padding: 0;border-radius: 16px;overflow: hidden;filter: drop-shadow(rgba(27, 30, 36, 0.08) 0px 0px 7.905px);border: 1px solid rgba(2, 6, 12, 0.08);margin: 5px 8px;}
+.card-txt{padding: 10px;}
+.card-txt p{font-weight: 200;font-size: 14px;line-height: 17px;letter-spacing: -0.33px;color: rgba(2, 6, 12, 0.6);}
 
 
 /*home food delivery section*/
@@ -50,6 +63,8 @@ button{transition: 0.5s;width: 100%;margin: 10px 0;}
 .grocery-delivery-w{margin: 80px 0;}
 .groceryincities{display: flex;flex-wrap: wrap;margin-top: 12px;gap: 16px;}
 .groceryincities a{display: flex;justify-content: center;align-items: center;border: 1px solid rgba(2, 6, 12, 0.15);;border-radius: 12px;color: black;height: auto;width: calc(25% - 32px);text-align: center;font-weight:400;padding: 16px;font-size: 14px;}
+
+.food-delivery h2,.grocery-delivery h2{font-weight: 600;font-size: 24px;line-height: 26px;letter-spacing: -0.6px;}
 
 /*footer*/
 
